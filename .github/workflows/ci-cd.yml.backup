@@ -29,5 +29,6 @@ jobs:
 
     - name: Push Image to DockerHub
       run: |
-        docker tag cicd_test:latest oheeteik/cicd_test:latest
-        docker push oheeteik/cicd_test:latest
+        docker tag cicd_test:latest mydockerhubusername/cicd_test:latest
+        docker push mydockerhubusername/cicd_test:latest
+
