@@ -2,7 +2,8 @@
 FROM node:18
 
 # Set working directory
-WORKDIR /usr/src/app
+# WORKDIR /usr/src/app
+WORKDIR /c/cicd_test
 
 # Copy package files first
 COPY package*.json ./
